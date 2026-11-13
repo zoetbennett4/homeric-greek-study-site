@@ -177,6 +177,14 @@ main[data-route=grammar],main[data-route=sources]{max-width:1660px}
 .source-pair .translation-pending{font:13px/1.8 sans-serif;margin:3px 0;color:var(--muted)}
 .source-check-links{display:flex;gap:15px;flex-wrap:wrap;font-size:12px;margin:18px 0 26px}
 .source-check-links a{text-decoration:underline;text-underline-offset:3px}
+.dictionary-scan-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.dictionary-scan-heading .source-text-note{margin:0}
+.source-reader-scan [data-notebook-action="highlight"]{display:none}
+beekes-scan{display:block;container-type:inline-size}
+.dictionary-spread{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:24px}
+.dictionary-spread a{display:block;cursor:zoom-in}
+.dictionary-spread img{display:block;width:100%;height:auto;border:1px solid var(--line)}
+@container (max-width:740px){.dictionary-spread{grid-template-columns:minmax(0,1fr);max-width:600px;margin-inline:auto}}
 .intersecting-source-section{margin:24px 0 40px}
 .intersecting-source-section>h2{font-size:21px;margin:0 0 12px}
 .source-page-ocr{background:transparent;border:0;border-top:1px solid var(--line);padding:16px 0;margin:24px 0}
